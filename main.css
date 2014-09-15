@@ -1,0 +1,47 @@
+img { 
+display: block;  
+
+
+}
+span {
+    font-size: 20x;
+    display: inline;
+    color: green;
+    font-family: Impact;
+
+}
+
+h1 {
+background-color: lightblue
+display: block;
+
+}
+ body {
+
+	background-color: orange;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 50px;
+}
+
+li {
+    float: left;
+    padding-left: 20px
+}
+
+
+a {
+    display: block;
+    width: 125px;
+    padding-left: 60px
+}
+
+ol {
+padding-left: 25px
+
+}
+
