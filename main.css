@@ -11,16 +11,18 @@ span {
 
 }
 
-h1 {
+div h1 {
 background-color: lightblue
-display: block;
+display: inline;
+
+border-width: 5px
 
 }
  body {
 
 	background-color: orange;
-
 }
+
 
 ul {
     list-style-type: none;
@@ -29,19 +31,31 @@ ul {
 }
 
 li {
+	font-size: 18px;
+	border-style: dotted solid double dashed;
     float: left;
-    padding-left: 20px
+    margin: 10px 10px 10px 10px;
 }
 
 
+
 a {
-    display: block;
+    display: inline-block;
     width: 125px;
-    padding-left: 60px
+    padding-left: 5px;
+
+
 }
 
 ol {
 padding-left: 25px
 
+}
+div a { 
+	display: inline;
+	width: 200px;
+	border: 5px solid brown;
+	position: center;
+	
 }
 
